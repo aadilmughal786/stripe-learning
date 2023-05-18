@@ -12,3 +12,18 @@ git clone https://github.com/your-username/stripe-learning.git
 cd stripe-learning
 npm install
 ```
+
+### Set up environment variables
+
+Create a .env file in the project root.
+Add your Stripe API publishable key to the .env file. Example:
+
+```dotenv
+STRIPE_PUBLISHABLE_KEY=your_stripe_publishable_key
+```
+
+### Start the development server:
+
+```bash
+npm start
+```
