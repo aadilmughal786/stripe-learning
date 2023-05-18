@@ -26,6 +26,7 @@
         min-height: 100vh;
         font-family: "Poppins", sans-serif;
         letter-spacing: 2px;
+        gap: 20px;
       }
 
       h1 {
@@ -44,10 +45,48 @@
       button:hover {
         background-color: aquamarine;
       }
+
+      table {
+        border: 1px solid #b3adad;
+        border-collapse: collapse;
+        padding: 5px;
+      }
+      table th {
+        border: 1px solid #b3adad;
+        padding: 5px;
+        background: #f0f0f0;
+        color: #313030;
+      }
+      table td {
+        border: 1px solid #b3adad;
+        text-align: center;
+        padding: 5px;
+        background: #ffffff;
+        color: #313030;
+      }
     </style>
   </head>
   <body>
     <h1>Stripe Checkout</h1>
+
+    <table>
+      <tr>
+        <th>Course Name</th>
+        <th>Price</th>
+        <th>Puantity</th>
+      </tr>
+      <tr>
+        <td>Learn Stripe</td>
+        <td>$10</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>Learn Express</td>
+        <td>$30</td>
+        <td>5</td>
+      </tr>
+    </table>
+
     <button>Checkout</button>
 
     <!-- Script -->
