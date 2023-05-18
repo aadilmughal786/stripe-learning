@@ -16,10 +16,10 @@ npm install
 ### Set up environment variables
 
 Create a .env file in the project root.
-Add your Stripe API publishable key to the .env file. Example:
+Add your Stripe API key to the .env file. Example:
 
 ```dotenv
-STRIPE_PUBLISHABLE_KEY=your_stripe_publishable_key
+STRIPE_PRIVATE_KEY=your_stripe_publishable_key
 ```
 
 ### Start the development server:
