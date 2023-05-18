@@ -9,8 +9,8 @@ app.use(express.static("public"));
 
 // mock database
 const storeItems = new Map([
-  [1, { priceInCents: 10 * 100, name: "learn Stripe" }],
-  [2, { priceInCents: 30 * 100, name: "learn Express" }],
+  [1, { priceInCents: 10 * 100, name: "Learn Stripe" }],
+  [2, { priceInCents: 30 * 100, name: "Learn Express" }],
 ]);
 
 const stripe = require("stripe")(process.env.STRIPE_PRIVATE_KEY);
